@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CounterStyle">
+        <item name="android:background">
+            @drawable/reset_button_background
+        </item>
+    </style>
+    <style name="IncreaseButtonStyle" >
+        <item name="android:background">
+            @drawable/increase_button_background
+        </item>
+    </style>
+    <style name="DecreaseButtonStyle">
+        <item name="android:backgroundTint">
+            @color/red
+        </item>
+        <item name="android:textColor">
+            @color/custom_button_color
+        </item>
+    </style>
+    <style name="ResetButtonStyle">
+        <item name="android:backgroundTint">
+            @color/blue
+        </item>
+    </style>
+</resources>
